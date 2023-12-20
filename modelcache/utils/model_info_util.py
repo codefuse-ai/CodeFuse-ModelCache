@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 from modelcache import cache
+from modelcache.utils.collection_util import get_collection_iat_name
 
 
 def model_version_save(scope):
